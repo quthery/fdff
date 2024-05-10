@@ -13,7 +13,7 @@ func main() {
 
 	found := slices.Contains(massive, otvet)
 	if found == true {
-		println("Я угадал!")
+		println("Я угадал!!")
 	} else {
 		println("Я не угадал!!")
 	}
