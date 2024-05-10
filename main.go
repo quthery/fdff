@@ -15,7 +15,7 @@ func main() {
 	if found == true {
 		println("Я угадал!")
 	} else {
-		println("Я не угадал!")
+		println("Я не угадал!!")
 	}
 
 }
