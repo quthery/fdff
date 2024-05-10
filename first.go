@@ -5,8 +5,8 @@ import (
 	"slices"
 )
 
-func main() {
-	otvet := "losharar"
+func lox() {
+	var otvet string
 	massive := []string{"egg", "tea", "f"}
 	println("Привет что ты ел на завтрак?")
 	fmt.Scan(&otvet)
@@ -15,7 +15,7 @@ func main() {
 	if found == true {
 		println("Я угадал!!")
 	} else {
-		println("Я не угадал!!esketit")
+		println("Какашки")
 	}
 
 }
